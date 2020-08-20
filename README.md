@@ -2,11 +2,17 @@
 
 
 ## Objetivo
-Criar um backend para ser consumido por qualquer aplicação Mobile.
+Criar um backend para ser consumido por qualquer aplicação Mobile.  
+Listando basicamente os pokemons...   
+
+![Pokemon - 1](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png) 
+![Pokemon - 2](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png) 
+![Pokemon - 3](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png)
+
 
 ## ToDo List:
 
-- [ ] Extrair todos as imagens listagem de 1 ~ 151:  
+- [ ] Extrair todos as imagens listagem de 1 ~ 151:b  
 Ex: 
 ```
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
