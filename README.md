@@ -12,15 +12,14 @@ Listando basicamente os pokemons...
 
 ## ToDo List:
 
-- [ ] Extrair todos as imagens listagem de 1 ~ 151:b  
-Ex: 
+- [ ] Extrair todos as imagens listagem de '1 ~ 151'  
 ```
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png
 ...
 ```  
-- [ ] Padronizar as cores: grass  
+- [ ] Padronizar as cores, Ex: `grass`, `fire`, `ice`
 - [ ] Criar banco de dados para armazenar as infomações.  
 - [ ] Permitirs CORs 
 - [ ] Criar Swagger para uso da API-Restfull /docs 
@@ -28,7 +27,7 @@ https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png
 
 ## Testar localmente: 
 Inicialmente você pode simular a API usando:  
-```
+```bash
 npm install
 npm run start
 ```
@@ -36,14 +35,14 @@ Assim é gerado uma API restfull:
 Todos os Pokemons:
 http://localhost:3000/pokemons
 
-Listar informações do pokemon 1 `Bulbasaur`
+Listar informações do pokemon 1: `Bulbasaur`
 http://localhost:3000/pokemons/1
 
 
 
 ### Exemplo de retorno:
 Exemplo da rota:  
-'/pokemons/1'
+`/pokemons/1`
 ```json
 {
     "id" : 1, 
