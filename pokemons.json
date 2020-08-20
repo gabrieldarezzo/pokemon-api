@@ -1,0 +1,41 @@
+{
+    "pokemons": [
+        {
+            "id" : 1, 
+            "name" : "Bulbasaur",
+            "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "type" : [
+                {
+                    "name": "grass",
+                    "color" : "#DFDFDF" 
+                },
+                {
+                    "poison": "fire",
+                    "color" : "#121212" 
+                }
+            ],
+            "weaknesses": [
+                "fire",
+                "psychic",
+                "flying",
+                "ice"
+            ],
+            "evolution": [
+                "2",
+                "3"
+            ],
+            "natural_moves" : [
+                {
+                    "name": "Leech seed",
+                    "type": "grass",
+                    "description": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken. Has no effect on grass Pokémon. The seed remains until the target leaves the field. The user takes damage instead of being healed if the target has liquid-ooze. rapid-spin will remove this effect. This effect is passed on by baton-pass."
+                },
+                {
+                    "name": "Growl",
+                    "type": "normal",
+                    "description": "Lowers the target's Attack by one stage."
+                }
+            ]
+        }
+    ]
+}

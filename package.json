@@ -1,0 +1,16 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "BackEnd: Extrair todos os Pokemon da listagem de 1 ~ 151 https://pokedex.org/#/pokemon/151",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "json-server",
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
