@@ -3,30 +3,52 @@
         {
             "id" : 1, 
             "name" : "Bulbasaur",
-            "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-            "type" : [
+            "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",    
+            "types" : [
                 {
                     "name": "grass",
-                    "color" : "#DFDFDF" 
+                    "color" : "#0ce850" 
                 },
                 {
                     "poison": "fire",
-                    "color" : "#121212" 
+                    "color" : "#e80c0c" 
                 }
             ],
             "weaknesses": [
-                "fire",
-                "psychic",
-                "flying",
-                "ice"
-            ],
+                {
+                    "poison": "fire",
+                    "color" : "#e80c0c" 
+                },
+                {
+                    "type" : "psychic",
+                    "color" : "#615757" 
+                },
+                {
+                    "type" : "flying",
+                    "color" : "#94d1ef" 
+                },
+                {
+                    "type" : "ice",
+                    "color" : "#2d92c3" 
+                }
+            ],            
+            "level_evolution" : "16",
             "evolution": [
-                "2",
-                "3"
+                {
+                    "id" : 2,
+                    "name" : "Ivysaur",
+                    "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+                },
+                {
+                    "id" : 3,
+                    "name" : "Venusaur",
+                    "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+                }
             ],
             "natural_moves" : [
                 {
                     "name": "Leech seed",
+                    "color": "",
                     "type": "grass",
                     "description": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken. Has no effect on grass Pokémon. The seed remains until the target leaves the field. The user takes damage instead of being healed if the target has liquid-ooze. rapid-spin will remove this effect. This effect is passed on by baton-pass."
                 },
